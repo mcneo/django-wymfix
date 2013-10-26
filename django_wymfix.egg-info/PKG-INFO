@@ -1,0 +1,39 @@
+Metadata-Version: 1.0
+Name: django-wymfix
+Version: 0.1
+Summary: A simple Django app to serve WYMeditor files from Django.
+Home-page: http://www.jeremymcneal.com/
+Author: Jeremy McNeal
+Author-email: jeremy@jeremymcneal.com
+License: BSD License
+Description: =====
+        wymfix
+        =====
+        
+        Want to use Django CMS and use S3 for your static files; then you'll need a fix for the Wymeditor,
+        otherwise it'll complain about Cross Site Scripting! Get your fix here!
+        
+        Quick start
+        -----------
+        
+        1. Add "wymfix" to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = (
+                ...
+                'wymfix',
+            )
+        
+        2. Include the wymfix URLconf in your project urls.py like this::
+        
+            url(r'^wymfix/', include('wymfix.urls')),
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content

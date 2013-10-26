@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+README.rst
+setup.py
+django_wymfix.egg-info/PKG-INFO
+django_wymfix.egg-info/SOURCES.txt
+django_wymfix.egg-info/dependency_links.txt
+django_wymfix.egg-info/top_level.txt
+wymfix/__init__.py
+wymfix/models.py
+wymfix/tests.py
+wymfix/urls.py
+wymfix/views.py
+wymfix/templates/admin/cms/page/plugin_change_form.html
+wymfix/templates/cms/plugins/widgets/wymeditor.html
